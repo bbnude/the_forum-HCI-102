@@ -52,7 +52,6 @@
 }
 
 
-
 /*-----------------------------------*\
  * #vid adjust
 \*-----------------------------------*/
@@ -264,7 +263,7 @@ body.active {
     color: var(--color-secondary);
     text-transform: uppercase;
     padding-bottom: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .section-subtitle::after {
@@ -662,8 +661,8 @@ main {
 }
 
 .skills-toggle.active::before {
-    left: 98px;
-    width: 94px;
+    left: 110px;
+    width: 100px;
 }
 
 .toggle-btn {
@@ -688,7 +687,7 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
     animation: fadeIn 0.5s ease-out forwards;
 }
 
