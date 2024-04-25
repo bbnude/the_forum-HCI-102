@@ -52,6 +52,7 @@
 }
 
 
+
 /*-----------------------------------*\
  * #vid adjust
 \*-----------------------------------*/
@@ -62,9 +63,24 @@
 }
 
 iframe {
-    border: 2px solid #00A4BD;
-    padding: 10px;
-    box-shadow: 6px 4px #00A4BD;
+    width: 150%;
+    margin-left: 20%;
+}
+
+@media (min-width: 250px) {
+    .vids {
+        position: absolute;
+        margin-left: -14em;
+        margin-top: -5em;
+    }
+    .project {
+        padding-block: var(--section-padding);
+        margin-top: 30px;
+    }
+    iframe {
+        width: 150%;
+        margin-left: 10%;
+    }
 }
 
 
